@@ -11,7 +11,8 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #272829;
+  color: #afa9c7
+  d72a7;
 }
 
 a {
@@ -20,7 +21,7 @@ a {
 }
 
 a:hover {
-  color: #37b3ed;
+  color: #3c14dd;
   text-decoration: none;
 }
 
@@ -43,7 +44,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #149ddd;
+  background: #3c14dd;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -57,7 +58,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #2eafec;
+  background: #3c14dd;
   color: #fff;
 }
 
@@ -87,7 +88,7 @@ h6 {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border: 8px solid #2c2f3f;
+  border: 8px solid #3c14dd ;
 }
 
 #header .profile h1 {
@@ -109,8 +110,8 @@ h6 {
 #header .profile .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #212431;
-  color: #fff;
+  background: #fafbff;
+  color: #3c14dd;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -122,7 +123,7 @@ h6 {
 }
 
 #header .profile .social-links a:hover {
-  background: #149ddd;
+  background: #3c14dd;
   color: #fff;
   text-decoration: none;
 }
@@ -202,7 +203,7 @@ h6 {
 .nav-menu .active i,
 .nav-menu .active:focus i,
 .nav-menu li:hover>a i {
-  color: #149ddd;
+  color: #3c14dd;
 }
 
 /* Mobile Navigation */
@@ -215,7 +216,7 @@ h6 {
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
-  background-color: #149ddd;
+  background-color: #3c14dd;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -247,7 +248,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(5, 13, 24, 0.3);
+  background: rgba(5, 14, 26, 0.3);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -312,7 +313,7 @@ section {
 }
 
 .section-bg {
-  background: #f5f8fd;
+  background: #a7abb2;
 }
 
 .section-title {
@@ -334,7 +335,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #149ddd;
+  background: #3c14dd;
   bottom: 0;
   left: 0;
 }
@@ -370,7 +371,7 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #149ddd;
+  color: #3c14dd;
   line-height: 0;
 }
 
@@ -432,7 +433,7 @@ section {
 /*--------------------------------------------------------------
 # Akills
 --------------------------------------------------------------*/
-.skills .progress {
+/*.skills .progress {
   height: 60px;
   display: block;
   background: none;
@@ -474,13 +475,13 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #050d18;
+  color: #3c14dd;
 }
 
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #1f5297;
+  border-left: 2px solid #3c14dd;
   position: relative;
 }
 
@@ -490,7 +491,7 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: #3c14dd;
   margin-bottom: 10px;
 }
 
@@ -559,7 +560,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #149ddd;
+  color: #3c14dd;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -602,17 +603,17 @@ section {
   color: #fff;
   font-size: 28px;
   text-align: center;
-  background: rgba(20, 157, 221, 0.75);
+  background: #3c14dd;
   transition: 0.3s;
   width: 50%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: rgba(20, 157, 221, 0.95);
+  background: #dad8e2;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a+a {
-  border-left: 1px solid #37b3ed;
+  border-left: 1px solid #3c14dd;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -696,7 +697,7 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services .icon-box {
+/*.services .icon-box {
   margin-bottom: 20px;
 }
 
@@ -751,7 +752,7 @@ section {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
-.testimonials .testimonials-carousel,
+/*.testimonials .testimonials-carousel,
 .testimonials .testimonials-slider {
   overflow: hidden;
 }
@@ -856,7 +857,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #149ddd;
+  color: #3c14dd;
   float: left;
   width: 44px;
   height: 44px;
@@ -873,14 +874,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #050d18;
+  color: #3c14dd;
 }
 
 .contact .info p {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #173b6c;
+  color: #3c14dd;
 }
 
 .contact .info .email p {
