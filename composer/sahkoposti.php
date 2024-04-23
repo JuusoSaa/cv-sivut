@@ -1,4 +1,35 @@
 <?php
+
+composer require league/oauth2-google
+
+use League\OAuth2\Client\Provider\Google;
+$provider = new Google([
+    'clientId'     => '{google-client-id}',
+    'clientSecret' => '{google-client-secret}',
+    'redirectUri'  => 'https://example.com/callback-url',
+    'accessType' => 'offline',
+]);
+        if (!empty($_GET['error'])) {
+            // Got an error; probably user denied access
+            exit('Got error: ' . htmlspecialchars($_GET['error'], ENT_QUOTES, 'UTF-8'));
+        } elseif (empty($_GET['code'])) {
+            // If we don't have an authorization code, then get one
+            $authUrl = $provider->getAuthorizationUrl([
+                'scope' => [
+                    'https://mail.google.com/'
+                ]
+            ]);
+            header('Location: ' . $authUrl);
+            exit;
+        } else {
+            // Try to get an access token (using the authorization code grant)
+            $token = $provider->getAccessToken('authorization_code', [
+                'code' => $_GET['code']
+            ]);
+            // Use this to get a new access token if the old one expires
+            $refreshToken = $token->getRefreshToken();
+        }
+
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
