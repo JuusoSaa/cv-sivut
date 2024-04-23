@@ -20,7 +20,7 @@ a {
 }
 
 a:hover {
-  color: #37b3ed;
+  color: #3743ed;
   text-decoration: none;
 }
 
@@ -43,7 +43,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #149ddd;
+  background: #16043f;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -57,7 +57,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #2eafec;
+  background: #ffffff;
   color: #fff;
 }
 
@@ -87,7 +87,7 @@ h6 {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border: 8px solid #2c2f3f;
+  border: 8px solid #170741;
 }
 
 #header .profile h1 {
@@ -109,8 +109,8 @@ h6 {
 #header .profile .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #212431;
-  color: #fff;
+  background: #170741;
+  color: #ffffff;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -122,8 +122,8 @@ h6 {
 }
 
 #header .profile .social-links a:hover {
-  background: #149ddd;
-  color: #fff;
+  background: #000000;
+  color: #170741;
   text-decoration: none;
 }
 
@@ -202,7 +202,7 @@ h6 {
 .nav-menu .active i,
 .nav-menu .active:focus i,
 .nav-menu li:hover>a i {
-  color: #149ddd;
+  color: #170741;
 }
 
 /* Mobile Navigation */
@@ -215,7 +215,7 @@ h6 {
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
-  background-color: #149ddd;
+  background-color: #170741;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -281,7 +281,7 @@ h6 {
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #149ddd;
+  border-bottom: 3px solid #170741;
 }
 
 @media (min-width: 1024px) {
@@ -325,7 +325,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  color: #170741;/*tekstin väri*/
 }
 
 .section-title h2::after {
@@ -334,7 +334,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #149ddd;
+  background: #170741;
   bottom: 0;
   left: 0;
 }
@@ -349,7 +349,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #173b6c;
+  color: #170741;
 }
 
 .about .content ul {
@@ -370,7 +370,7 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #149ddd;
+  color: #170741;
   line-height: 0;
 }
 
@@ -393,7 +393,7 @@ section {
 .facts .count-box i {
   display: block;
   font-size: 44px;
-  color: #149ddd;
+  color: #170741;
   float: left;
   line-height: 0;
 }
@@ -432,7 +432,7 @@ section {
 /*--------------------------------------------------------------
 # Akills
 --------------------------------------------------------------*/
-.skills .progress {
+/*.skills .progress {
   height: 60px;
   display: block;
   background: none;
@@ -474,13 +474,13 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #050d18;
+  color: #170741;
 }
 
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #1f5297;
+  border-left: 2px solid #170741;
   position: relative;
 }
 
@@ -490,7 +490,7 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: #170741;
   margin-bottom: 10px;
 }
 
@@ -524,7 +524,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #1f5297;
+  border: 2px solid #170741;
 }
 
 /*--------------------------------------------------------------
@@ -559,7 +559,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #149ddd;
+  color: #170741;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -602,17 +602,18 @@ section {
   color: #fff;
   font-size: 28px;
   text-align: center;
-  background: rgba(20, 157, 221, 0.75);
+  background: #170741;
   transition: 0.3s;
   width: 50%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: rgba(20, 157, 221, 0.95);
+  background: #000000;
+  color: #170741;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a+a {
-  border-left: 1px solid #37b3ed;
+  border-left: 1px solid #170741;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -649,11 +650,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #149ddd;
+  border: 1px solid #170741;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #149ddd;
+  background-color: #170741;
 }
 
 .portfolio-details .portfolio-info {
@@ -696,7 +697,7 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services .icon-box {
+/*.services .icon-box {
   margin-bottom: 20px;
 }
 
@@ -751,7 +752,7 @@ section {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
-.testimonials .testimonials-carousel,
+/*.testimonials .testimonials-carousel,
 .testimonials .testimonials-slider {
   overflow: hidden;
 }
@@ -856,11 +857,11 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #149ddd;
+  color: #ffffff;
   float: left;
   width: 44px;
   height: 44px;
-  background: #dff3fc;
+  background: #170741;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -880,7 +881,7 @@ section {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #173b6c;
+  color: #170741;
 }
 
 .contact .info .email p {
@@ -907,15 +908,15 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #149ddd;
-  color: #fff;
+  background: #000000;
+  color: #170741;
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #149ddd;
-  color: #fff;
+  background: #000000;
+  color: #170741;
 }
 
 .contact .php-email-form {
@@ -1002,7 +1003,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #149ddd;
+  background: #170741;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1011,7 +1012,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #37b3ed;
+  background: #000000;
 }
 
 @keyframes animate-loading {
@@ -1027,7 +1028,7 @@ section {
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
-.breadcrumbs {
+/*.breadcrumbs {
   padding: 20px 0;
   background: #f9f9f9;
 }
