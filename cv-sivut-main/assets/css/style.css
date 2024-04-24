@@ -13,6 +13,7 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #afa9c7
   d72a7;
+  background-color: #dde1e6;
 }
 
 a {
@@ -110,7 +111,7 @@ h6 {
 #header .profile .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #fafbff;
+  background: #bebebe;
   color: #3c14dd;
   line-height: 1;
   padding: 8px 0;
@@ -282,7 +283,7 @@ h6 {
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #149ddd;
+  border-bottom: 3px solid #3c14dd;
 }
 
 @media (min-width: 1024px) {
@@ -313,7 +314,7 @@ section {
 }
 
 .section-bg {
-  background: #a7abb2;
+  background: #878c93;
 }
 
 .section-title {
@@ -576,7 +577,7 @@ section {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(0, 0, 0, 0.3);
   position: absolute;
   left: 0;
   right: 0;
@@ -610,6 +611,7 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
   background: #dad8e2;
+  color: #3c14dd
 }
 
 .portfolio .portfolio-wrap .portfolio-links a+a {
@@ -861,7 +863,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #dff3fc;
+  background: #bebebe;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -908,14 +910,14 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #149ddd;
+  background: #3c14dd;
   color: #fff;
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #149ddd;
+  background: #3c14dd;
   color: #fff;
 }
 
@@ -1003,10 +1005,10 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #149ddd;
+  background: #bebebe;
   border: 0;
   padding: 10px 24px;
-  color: #fff;
+  color: #3c14dd;
   transition: 0.4s;
   border-radius: 4px;
 }
