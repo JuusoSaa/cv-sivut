@@ -327,7 +327,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  color: #3d3c3c;
 }
 
 .section-title h2::after {
@@ -351,7 +351,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #173b6c;
+  color: #3d3c3c;
 }
 
 .about .content ul {
