@@ -34,6 +34,9 @@ h5,
 h6 {
   font-family: "Raleway", sans-serif;
 }
+table,th,td{
+ font-size: 16px;
+}
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -59,8 +62,8 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #3c14dd;
-  color: #fff;
+  background: #bebebe;
+  color: #3c14dd;
 }
 
 .back-to-top.active {
@@ -343,6 +346,7 @@ section {
 
 .section-title p {
   margin-bottom: 0;
+  font-size: 16px;
 }
 
 /*--------------------------------------------------------------
@@ -357,6 +361,7 @@ section {
 .about .content ul {
   list-style: none;
   padding: 0;
+  font-size: 16px;
 }
 
 .about .content ul li {
@@ -370,7 +375,7 @@ section {
 }
 
 .about .content ul i {
-  font-size: 16px;
+  font-size: 18px;
   margin-right: 5px;
   color: #3c14dd;
   line-height: 0;
@@ -1014,7 +1019,8 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #37b3ed;
+  background: #3c14dd;
+  color:#ffffff
 }
 
 @keyframes animate-loading {
